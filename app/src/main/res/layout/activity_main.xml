@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Inputs de nome, altura e peso -->
+    <EditText
+        android:id="@+id/edit_nome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome" />
+
+    <EditText
+        android:id="@+id/edit_altura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Altura" />
+
+    <EditText
+        android:id="@+id/edit_peso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Peso" />
+
+    <!-- Botão para Inserir Usuário -->
+    <Button
+        android:id="@+id/button_inserir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calcular" />
+
+</LinearLayout>
